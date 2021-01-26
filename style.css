@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2px solid red;
+  height: 30px;
+}
+
+.header__section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header__item {
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+
+.header__item:hover {
+  background-color: green;
+
+  border-radius: 6px;
+}
