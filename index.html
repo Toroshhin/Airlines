@@ -2,24 +2,53 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Airlines</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авиакомпания</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="header">
-    <div class="header__section">
-      <div class="header__item header-logo"></div>
-      <div class="header__item header-button"><a href="#">Акции</a></div>
-      <div class="header__item header-button"><a href="#">Поиск</a></div>
-      <div class="header__item header-button"><a href="#">Регистрация на рейс</a></div>
-      <div class="header__item header-button"><a href="#">Личный кабинет</a></div>
+    <div class="container">
+        <div class="header">
+            <div class="header__section">
+                <div class="header__item header-logo">
+                    <img class="header-logo__img" src="/Img/logo.png" alt="logo">
+                    <h3 class="header-logo__text">Airlines</h3>
+                </div>
+            </div>
 
+            <div class="header__section">
+                <div class="header__item header-button"><a href="#">Акции</a></div>
+                <div class="header__item header-button"><a href="#">Поиск</a></div>
+                <div class="header__item header-button"><a href="#">Регистрация на рейс</a></div>
+            </div>
+            <div class="header__section">
+                <div class="header__item login"><a href="#">Войти</a></div>
+            </div>
+        </div>
 
+        <div class="block-reservation">
+            <div class="block-reservation__inputs">
+                <input class="block-reservation__input" type="text" placeholder="Откуда">
+                <input class="block-reservation__input" type="text" placeholder="Куда">
+                <input class="block-reservation__input" type="text" placeholder="Вылет">
+                <input class="block-reservation__input" type="text" placeholder="Прилёт">
+                <input class="block-reservation__input" type="text" placeholder="Количество пассажиров">
+                <input class="block-reservation__input" type="button" value="Поиск">
+            </div>
+            <div class="block-reservation__media">
+                <img class="block-reservation__img" src="/Img/reservationImg.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="block-sales">
+            <div class="block-sales__article article-sub"><img src="" alt="">1</div>
+            <div class="block-sales__article article-sale">2</div>
+            <div class="block-sales__article article-sale">3</div>
+
+        </div>
     </div>
-
 </body>
 
 </html>

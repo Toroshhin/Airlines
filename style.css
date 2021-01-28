@@ -1,38 +1,123 @@
 * {
-  margin: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.container {
+    width: 1270px;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  margin: 0;
-  background: black;
-  color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-bottom: 2px solid red;
-  height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 0;
+    background: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header__section {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+    display: flex;
+    white-space: nowrap;
+}
+
+.login {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(228, 166, 85);
+}
+
+.login:hover {
+    background-color: rgb(228, 149, 85);
 }
 
 .header__item {
-  font-size: 20px;
-  margin-left: 15px;
-  padding: 5px 10px;
+    padding: 10px;
 }
 
-.header__item:hover {
-  background-color: green;
+.header-logo {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+    color: rgb(63, 63, 63);
+    height: 30px;
+    cursor: default;
+}
 
-  border-radius: 6px;
+.header-logo__img {
+    width: 100%;
+    margin: 0;
+}
+
+.header-logo__text {
+    margin: 0 auto;
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+}
+
+.block-reservation {
+    width: 100%;
+    display: flex;
+    height: 450px;
+}
+
+.block-reservation__inputs {
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    background-color: rgb(228, 166, 85);
+}
+
+.block-reservation__input {
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 15px;
+    width: 180px;
+    font-size: 15px;
+    outline: 0;
+    text-align: center;
+}
+
+.block-reservation__media {
+    width: 80%;
+}
+
+.block-reservation__img {
+    height: 100%;
+    width: 100%;
+}
+
+.block-sales {
+    width: 100%;
+    display: flex;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.article-sub {
+    width: 100%;
+    height: 50%;
+}
+
+.block-sales__article {
+    background-color: red;
+}
+
+.article-sale {
+    width: 50%;
+    height: 50%;
 }
